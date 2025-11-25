@@ -14,7 +14,9 @@ Deliberately optimized for **high recall (≥ 70%)** while preserving clinical i
 - SHAP global & local explanations (summary + waterfall)  
 - FastAPI inference endpoint (Docker-ready)  
 - Scaler + feature order persistence for zero-downtime deployment  
-
+------
+> **High recall saves lives. SHAP builds trust. LightGBM ships to production.**
+--------
 ## Quick Start (5 seconds)
 
 ```bash
@@ -25,3 +27,5 @@ cd readmission-risk-prediction
 # Or spin up the API instantly:
 uvicorn app:app --reload
 # → POST http://127.0.0.1:8000/predict
+
+
